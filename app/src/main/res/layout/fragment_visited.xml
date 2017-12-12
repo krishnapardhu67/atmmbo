@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.venusweetgen.atmmobile.Visited">
+
+    <!-- TODO: Update blank fragment layout -->
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <TextView
+           android:id="@+id/textView7"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginStart="13dp"
+           android:layout_marginTop="92dp"
+           android:text="Add Visited ATm"
+           android:textAlignment="center"
+           android:textSize="24sp" />
+
+       <EditText
+           android:id="@+id/v_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentStart="true"
+           android:layout_below="@+id/textView7"
+           android:layout_marginTop="35dp"
+           android:ems="10"
+           android:inputType="textPersonName" />
+
+       <EditText
+           android:id="@+id/v_address"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentStart="true"
+           android:layout_below="@+id/v_name"
+           android:layout_marginTop="67dp"
+           android:ems="10"
+           android:inputType="textPersonName" />
+
+       <Button
+           android:id="@+id/Add"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentStart="true"
+           android:layout_below="@+id/v_address"
+           android:layout_marginTop="56dp"
+           android:onClick="addatm"
+           android:text="Add" />
+
+       <TextView
+           android:id="@+id/textView9"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignStart="@+id/textView7"
+           android:layout_below="@+id/textView7"
+           android:layout_marginTop="17dp"
+           android:text="ATM Name"
+           android:textSize="14sp" />
+
+       <TextView
+           android:id="@+id/textView10"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:text="Address"
+           android:layout_marginTop="250dp"
+           android:textSize="14sp"
+           android:layout_alignStart="@+id/textView9" />
+
+   </RelativeLayout>
+</FrameLayout>

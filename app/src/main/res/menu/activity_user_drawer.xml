@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/findatm"
+            android:title="Find ATMS" />
+        <item
+            android:id="@+id/currency"
+            android:title="Currency Converter" />
+        <item
+            android:id="@+id/emergency"
+            android:title="Send Emergency" />
+        <item
+            android:id="@+id/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/visited"
+            android:title="Add Visited ATMS" />
+        <item
+            android:id="@+id/history"
+            android:title="Visited History" />
+        <item
+            android:id="@+id/safety"
+            android:title="Add Safty  Security" />
+        <item
+            android:id="@+id/viewsafety"
+            android:title="View Safety  Security" />
+        <item
+            android:id="@+id/other"
+            android:title="Add No Cash , Not Working ATMs" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nocash"
+                android:title="No Cash ATMS" />
+            <item
+                android:id="@+id/notworking"
+                android:title="Not Working ATMS" />
+            <item
+                android:id="@+id/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

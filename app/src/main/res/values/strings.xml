@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">ATM MOBILE</string>
+    <string name="title_activity_user">User</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_admin">Admin</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="atm_prompt">Choose a Category</string>
+
+    <string-array name="atm_array">
+        <item>Not Working</item>
+        <item>No Cash</item>
+    </string-array>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>USD</item>
+        <item>INR</item>
+        <item>ALL</item>
+        <item>XCD</item>
+        <item>EUR</item>
+        <item>BBD</item>
+        <item>BTN</item>
+        <item>BND</item>
+        <item>XAF</item>
+        <item>CUP</item>
+        <item>FKP</item>
+        <item>FKP</item>
+        <item>GIP</item>
+        <item>HUF</item>
+        <item>IRR</item>
+        <item>JMD</item>
+        <item>JMD</item>
+        <item>AUD</item>
+
+        <item>LAK</item>
+        <item>LYD</item>
+        <item>MKD</item>
+        <item>XOF</item>
+        <item>PGK</item>
+        <item>RWF</item>
+        <item>WST</item>
+        <item>RSD</item>
+        <item>SEK</item>
+        <item>TZS</item>
+        <item>BSD</item>
+        <item>BAM</item>
+        <item>CNY</item>
+        <item>CRC</item>
+        <item>CZK</item>
+        <item>CZK</item>
+        <item>ERN</item>
+        <item>GEL</item>
+
+        <item>HTG</item>
+        <item>JOD</item>
+        <item>KRW</item>
+        <item>LBP</item>
+        <item>MWK</item>
+        <item>MRO</item>
+        <item>MRO</item>
+        <item>MZN</item>
+        <item>ANG</item>
+        <item>STD</item>
+        <item>SLL</item>
+        <item>SOS</item>
+        <item>SDG</item>
+        <item>SYP</item>
+        <item>AOA</item>
+        <item>AWG</item>
+        <item>BHD</item>
+        <item>BZD</item>
+
+        <item>BWP</item>
+        <item>BIF</item>
+        <item>KYD</item>
+        <item>COP</item>
+        <item>DKK</item>
+        <item>GTQ</item>
+        <item>HNL</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>KZT</item>
+        <item>KZT</item>
+        <item>KWD</item>
+        <item>LSL</item>
+        <item>MYR</item>
+        <item>MUR</item>
+        <item>MNT</item>
+        <item>MMK</item>
+        <item>NGN</item>
+
+        <item>PHP</item>
+        <item>RON</item>
+        <item>RON</item>
+        <item>SAR</item>
+        <item>SGD</item>
+        <item>ZAR</item>
+        <item>SRD</item>
+        <item>TWD</item>
+        <item>VEF</item>
+        <item>DZD</item>
+        <item>ARS</item>
+        <item>AZN</item>
+        <item>AZN</item>
+        <item>BYR</item>
+        <item>BOB</item>
+        <item>BOB</item>
+        <item>BGN</item>
+        <item>CAD</item>
+
+        <item>CLP</item>
+        <item>CDF</item>
+        <item>DOP</item>
+        <item>FJD</item>
+        <item>GMD</item>
+        <item>GYD</item>
+        <item>ISK</item>
+        <item>IQD</item>
+        <item>IQD</item>
+        <item>JPY</item>
+        <item>KPW</item>
+        <item>LVL</item>
+        <item>CHF</item>
+        <item>MGA</item>
+        <item>MDL</item>
+        <item>MAD</item>
+        <item>NPR</item>
+        <item>NIO</item>
+
+        <item>PKR</item>
+        <item>PYG</item>
+        <item>SHP</item>
+        <item>SCR</item>
+        <item>SCR</item>
+        <item>SBD</item>
+        <item>LKR</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>AED</item>
+        <item>VUV</item>
+        <item>YER</item>
+        <item>AFN</item>
+        <item>BDT</item>
+        <item>BRL</item>
+        <item>KHR</item>
+        <item>KMF</item>
+        <item>HRK</item>
+
+        <item>DJF</item>
+        <item>EGP</item>
+        <item>ETB</item>
+        <item>XPF</item>
+        <item>GHS</item>
+        <item>GNF</item>
+        <item>HKD</item>
+        <item>XDR</item>
+        <item>KES</item>
+        <item>KGS</item>
+        <item>LRD</item>
+        <item>MOP</item>
+        <item>MVR</item>
+        <item>MXN</item>
+        <item>NAD</item>
+        <item>NOK</item>
+        <item>PLN</item>
+        <item>RUB</item>
+
+        <item>SZL</item>
+        <item>TJS</item>
+        <item>TTD</item>
+        <item>UGX</item>
+        <item>UYU</item>
+        <item>VND</item>
+        <item>TND</item>
+        <item>UAH</item>
+        <item>UZS</item>
+        <item>TMT</item>
+        <item>GBP</item>
+        <item>ZMW</item>
+        <item>BTC</item>
+
+    </string-array>
+
+</resources>
